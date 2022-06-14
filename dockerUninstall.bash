@@ -56,5 +56,7 @@ sudo rm -Rf ~/Library/Saved\ Application\ State/com.electron.docker-frontend.sav
 echo "sudo rm -Rf ~/Library/Saved\ Application\ State/com.electron.docker-frontend.savedState: DONE"
 sudo rm -f ~/Library/Preferences/com.electron.docker-frontend.plist
 echo "sudo rm -f ~/Library/Preferences/com.electron.docker-frontend.plist"
+rm -f ~/.docker
+echo "rm -f ~/.docker"
 echo
 echo "UNINSTALL COMPLETE"
