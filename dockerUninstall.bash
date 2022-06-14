@@ -55,8 +55,8 @@ echo "sudo rm -f ~/Library/Preferences/com.docker.docker.plist: DONE"
 sudo rm -Rf ~/Library/Saved\ Application\ State/com.electron.docker-frontend.savedState
 echo "sudo rm -Rf ~/Library/Saved\ Application\ State/com.electron.docker-frontend.savedState: DONE"
 sudo rm -f ~/Library/Preferences/com.electron.docker-frontend.plist
-echo "sudo rm -f ~/Library/Preferences/com.electron.docker-frontend.plist"
+echo "sudo rm -f ~/Library/Preferences/com.electron.docker-frontend.plist: DONE"
 sudo rm -f ~/.docker
-echo "rm -f ~/.docker"
+echo "sudo rm -f ~/.docker: MIGHT BE DONE >>> DOUBLE CHECK"
 echo
 echo "UNINSTALL COMPLETE"
